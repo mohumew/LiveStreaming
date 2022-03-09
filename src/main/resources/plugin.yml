@@ -1,0 +1,13 @@
+name: LiveStreaming
+version: '${project.version}'
+main: me.bearleonlight.com.livestreaming.LiveStreaming
+api-version: 1.17
+prefix: LiveStreaming
+load: STARTUP
+authors: [ BearLeonLight ]
+depend:
+  - LuckPerms
+commands:
+  LiveStreaming:
+    aliases:
+      - live
