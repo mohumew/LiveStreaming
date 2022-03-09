@@ -82,7 +82,7 @@ public final class LiveStreaming extends JavaPlugin {
                             if (setProtect(p.getUniqueId(), true)) {
                                 p.sendMessage("開啟直播保護模式");
                             } else {
-                                p.sendMessage("您需要先開起直播模式");
+                                p.sendMessage("您需要先開啟直播模式");
                             }
 
                             return true;
